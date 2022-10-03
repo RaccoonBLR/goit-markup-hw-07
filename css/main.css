@@ -52,14 +52,6 @@
   margin: -1px;
 }
 
-body {
-  font-family: var(--main-font);
-  color: var(--main-txt-cl);
-  font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
 h1,
 h2,
 h3,
@@ -80,6 +72,14 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-txt-cl);
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .container {
@@ -120,8 +120,12 @@ img {
   gap: 50px;
 }
 
-.header__contact-link {
+.header__contact-item {
   font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.header__contact-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -162,7 +166,6 @@ img {
 
 .nav__item {
   font-weight: 500;
-  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .nav__item.nav__item--current::after {
@@ -247,7 +250,6 @@ img {
 
 .benefits__item-title {
   font-weight: 700;
-  line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
 }

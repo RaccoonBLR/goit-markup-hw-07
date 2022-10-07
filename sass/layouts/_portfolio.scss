@@ -1,15 +1,4 @@
 .portfolio {
-  @include section;
-}
-
-.portfolio__btn-list {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  margin-bottom: 50px;
-}
-
-.portfolio__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -69,7 +58,7 @@
   border-top: none;
 }
 
-.portfolio__item-title {
+.portfolio__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -78,7 +67,7 @@
   margin-bottom: 4px;
 }
 
-.portfolio__item-subtitle {
+.portfolio__text {
   font-size: 16px;
   line-height: 1.88;
 

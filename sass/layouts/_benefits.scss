@@ -1,8 +1,4 @@
 .benefits {
-  @include section;
-}
-
-.benefits__list {
   display: flex;
   gap: 30px;
 }
@@ -20,14 +16,14 @@
   background-color: var(--secondary-bg-cl);
 }
 
-.benefits__item-title {
+.benefits__title {
   font-weight: 700;
   text-transform: uppercase;
 
   margin-bottom: 10px;
 }
 
-.benefits__item-subtitle {
+.benefits__text {
   line-height: 1.71;
 
   color: var(--secondary-txt-cl);

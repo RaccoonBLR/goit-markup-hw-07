@@ -14,37 +14,3 @@
 .header__logo {
   margin-right: 93px;
 }
-
-.header__logo-half {
-  color: var(--header-logohalf-cl);
-}
-
-.header__contact-list {
-  display: flex;
-  gap: 50px;
-}
-
-.header__contact-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-
-  display: flex;
-  gap: 10px;
-  align-items: center;
-
-  padding-top: 32px;
-  padding-bottom: 32px;
-
-  transition: color var(--main-animation);
-
-  color: var(--secondary-txt-cl);
-
-  &:hover,
-  &:focus {
-    color: var(--accent-cl);
-  }
-}
-
-.header__contact-icon {
-  fill: currentColor;
-}

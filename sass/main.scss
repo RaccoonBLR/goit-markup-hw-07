@@ -1,7 +1,6 @@
 // utils
 @import './utils/vars';
 @import './utils/visually-hidden';
-@import './utils/mixins';
 
 // base
 @import './base/base';
@@ -22,8 +21,10 @@
 // components
 @import './components/logo';
 @import './components/btn';
+@import './components/contacts';
 @import './components/socials';
 @import './components/contact-address';
+@import './components/filter';
 @import './components/newsletter-form';
 @import './components/modal';
 @import './components/application-form';

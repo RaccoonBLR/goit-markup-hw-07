@@ -23,32 +23,32 @@
       <div class="container header__container">
         <nav class="nav">
           <a class="logo header__logo" href="./index.html">
-            Web<span class="header__logo-half">Studio</span>
+            Web<span class="logo__dark-half">Studio</span>
           </a>
           <ul class="nav__list">
             <li class="nav__item">
               <a class="nav__link" href="./index.html">Студія</a>
             </li>
-            <li class="nav__item nav__item--current">
-              <a class="nav__link" href="./portfolio.html">Портфоліо</a>
+            <li class="nav__item">
+              <a class="nav__link nav__link--current" href="./portfolio.html">Портфоліо</a>
             </li>
             <li class="nav__item">
               <a class="nav__link" href="">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="header__contact-list">
-          <li class="header__contact-item">
-            <a class="header__contact-link" href="mailto:info@devstudio.com">
-              <svg class="header__contact-icon" width="16" height="12">
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <a class="contacts__link" href="mailto:info@devstudio.com">
+              <svg class="contacts__icon" width="16" height="12">
                 <use href="./images/icons.svg#mail"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="header__contact-item">
-            <a class="header__contact-link" href="tel:+380961111111">
-              <svg class="header__contact-icon" width="10" height="16">
+          <li class="contacts__item">
+            <a class="contacts__link" href="tel:+380961111111">
+              <svg class="contacts__icon" width="10" height="16">
                 <use href="./images/icons.svg#phone"></use>
               </svg>
               +38 096 111 11 11
@@ -59,27 +59,27 @@
     </header>
     <main>
       <!-- portfolio -->
-      <section class="portfolio">
+      <section class="section">
         <div class="container">
-          <h1 class="portfolio__title visually-hidden">Наші проекти</h1>
-          <ul class="portfolio__btn-list">
-            <li class="portfolio__btn-item">
+          <h1 class="section__title visually-hidden">Наші проекти</h1>
+          <ul class="filter">
+            <li class="filter__item">
               <button class="btn btn--theme-light" type="button">Усі</button>
             </li>
-            <li class="portfolio__btn-item">
+            <li class="filter__item">
               <button class="btn btn--theme-light" type="button">Веб-сайти</button>
             </li>
-            <li class="portfolio__btn-item">
+            <li class="filter__item">
               <button class="btn btn--theme-light" type="button">Додатки</button>
             </li>
-            <li class="portfolio__btn-item">
+            <li class="filter__item">
               <button class="btn btn--theme-light" type="button">Дизайн</button>
             </li>
-            <li class="portfolio__btn-item">
+            <li class="filter__item">
               <button class="btn btn--theme-light" type="button">Маркетинг</button>
             </li>
           </ul>
-          <ul class="portfolio__list">
+          <ul class="portfolio">
             <li class="portfolio__item">
               <a
                 href="https://google.com/"
@@ -104,8 +104,8 @@
                   </div>
                 </div>
                 <div class="portfolio__wrap">
-                  <h2 class="portfolio__item-title">Технокряк</h2>
-                  <p class="portfolio__item-subtitle">Веб-сайт</p>
+                  <h2 class="portfolio__title">Технокряк</h2>
+                  <p class="portfolio__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
@@ -133,8 +133,8 @@
                   </div>
                 </div>
                 <div class="portfolio__wrap">
-                  <h2 class="portfolio__item-title">Постер New Orlean vs Golden Star</h2>
-                  <p class="portfolio__item-subtitle">Дизайн</p>
+                  <h2 class="portfolio__title">Постер New Orlean vs Golden Star</h2>
+                  <p class="portfolio__text">Дизайн</p>
                 </div>
               </a>
             </li>
@@ -162,8 +162,8 @@
                   </div>
                 </div>
                 <div class="portfolio__wrap">
-                  <h2 class="portfolio__item-title">Ресторан Seafood</h2>
-                  <p class="portfolio__item-subtitle">Додаток</p>
+                  <h2 class="portfolio__title">Ресторан Seafood</h2>
+                  <p class="portfolio__text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -191,8 +191,8 @@
                   </div>
                 </div>
                 <div class="portfolio__wrap">
-                  <h2 class="portfolio__item-title">Проєкт Prime</h2>
-                  <p class="portfolio__item-subtitle">Маркетинг</p>
+                  <h2 class="portfolio__title">Проєкт Prime</h2>
+                  <p class="portfolio__text">Маркетинг</p>
                 </div>
               </a>
             </li>
@@ -220,8 +220,8 @@
                   </div>
                 </div>
                 <div class="portfolio__wrap">
-                  <h2 class="portfolio__item-title">Проєкт Boxes</h2>
-                  <p class="portfolio__item-subtitle">Додаток</p>
+                  <h2 class="portfolio__title">Проєкт Boxes</h2>
+                  <p class="portfolio__text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -249,8 +249,8 @@
                   </div>
                 </div>
                 <div class="portfolio__wrap">
-                  <h2 class="portfolio__item-title">Inspiration has no Borders</h2>
-                  <p class="portfolio__item-subtitle">Веб-сайт</p>
+                  <h2 class="portfolio__title">Inspiration has no Borders</h2>
+                  <p class="portfolio__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
@@ -278,8 +278,8 @@
                   </div>
                 </div>
                 <div class="portfolio__wrap">
-                  <h2 class="portfolio__item-title">Видання Limited Edition</h2>
-                  <p class="portfolio__item-subtitle">Дизайн</p>
+                  <h2 class="portfolio__title">Видання Limited Edition</h2>
+                  <p class="portfolio__text">Дизайн</p>
                 </div>
               </a>
             </li>
@@ -307,8 +307,8 @@
                   </div>
                 </div>
                 <div class="portfolio__wrap">
-                  <h2 class="portfolio__item-title">Проєкт LAB</h2>
-                  <p class="portfolio__item-subtitle">Маркетинг</p>
+                  <h2 class="portfolio__title">Проєкт LAB</h2>
+                  <p class="portfolio__text">Маркетинг</p>
                 </div>
               </a>
             </li>
@@ -336,8 +336,8 @@
                   </div>
                 </div>
                 <div class="portfolio__wrap">
-                  <h2 class="portfolio__item-title">Growing Business</h2>
-                  <p class="portfolio__item-subtitle">Додаток</p>
+                  <h2 class="portfolio__title">Growing Business</h2>
+                  <p class="portfolio__text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -348,9 +348,9 @@
     <!-- Contacts -->
     <footer class="footer">
       <div class="container footer__container">
-        <div class="footer__address">
+        <div class="footer__address-wrapper">
           <a class="logo footer__logo" href="./index.html">
-            Web<span class="footer__logo-half">Studio</span>
+            Web<span class="logo__light-half">Studio</span>
           </a>
           <address class="contact-address">
             <ul class="contact-address__list">
@@ -375,9 +375,9 @@
             </ul>
           </address>
         </div>
-        <div class="socials">
-          <p class="socials__subtitle">Приєднуйтесь</p>
-          <ul class="socials__list">
+        <div class="footer__socials-wrapper">
+          <p class="footer__socials-wrapper-text">Приєднуйтесь</p>
+          <ul class="socials">
             <li class="socials__item">
               <a
                 class="socials__link"
